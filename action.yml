@@ -1,0 +1,5 @@
+name: 'Go'
+author: 'ccode'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
