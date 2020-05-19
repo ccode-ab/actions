@@ -1,0 +1,5 @@
+name: 'FTP Upload'
+author: 'ccode'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
