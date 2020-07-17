@@ -11,3 +11,5 @@ cp main.go "$GOPATH/src/$PACKAGES_PREFIX/main.go" || true
 for PACKAGE in $(echo "$PACKAGES" | sed "s/,/ /g"); do
     $GOPATH/bin/golint -set_exit_status $PACKAGE;
 done
+
+echo "Done"
