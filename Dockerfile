@@ -11,7 +11,7 @@ ENV PATH /google-cloud-sdk/bin:$PATH
 # Tools
 RUN apk --no-cache add \
         curl \
-        python3 \
+        python2 \
         py-crcmod \
         bash \
         libc6-compat \
